@@ -1,5 +1,5 @@
 # project-codemetrics
-I wanted a project that could give me some development metrics.  Codex was able to quickly generate a file that counts how many source files, lines of code, etc are in a folder, counted recursively.  This way I can track how much code was created in an easy manner along with some other useful metrics.
+I wanted a project that could give me some development metrics.  Codex was able to quickly generate this tool that counts how many source files, lines of code, etc are in a folder, counted recursively.  This way I can track how much code was created in an easy manner along with some other useful metrics.
 
 The initial files generated didn't know to exclude themselves, so the project counter code was always inflated with the source of the tool.  This iteration fixes that, and in fact shows "Tool files excluded: 2", which is correct.  This was validated by running the source counter tool within a folder that only had the source counter tool, and the resulting LOC showed zero.
 
